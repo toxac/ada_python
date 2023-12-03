@@ -34,6 +34,46 @@ Graphing techniques like Q-Q plots determine whether the residuals are normally 
 
 Homoscedasticity assumes that residuals have a constant variance or standard deviation from the mean for every value of x. If not, the results of the analysis might not be accurate. If this assumption is not met, you might have to change the dependent variable. Because variance occurs naturally in large datasets, it makes sense to change the scale of the dependent variable. For example, instead of using the population size to predict the number of fire stations in a city, might use population size to predict the number of fire stations per person.
 
+
+## Types of Regression
+Some types of regression analysis are more suited to handle complex datasets than others. The following are some examples.
+
+### Simple linear regression
+Simple linear regression is defined by the linear function:
+
+$$y = \beta_0 + \beta_1 x + \epsilon$$
+
+β0 and β1 are two unknown constants representing the regression slope, whereas ε (epsilon) is the error term.
+
+You can use simple linear regression to model the relationship between two variables, such as these:
+
+- Rainfall and crop yield
+- Age and height in children
+- Temperature and expansion of the metal mercury in a thermometer
+
+## Multiple linear regression
+In multiple linear regression analysis, the dataset contains one dependent variable and multiple independent variables. The linear regression line function changes to include more factors as follows:
+
+$$y = \beta_0 * x0 + \beta_1 x1 +...+ \beta_n xn+ \epsilon$$
+
+
+As the number of predictor variables increases, the β constants also increase correspondingly.
+
+Multiple linear regression models multiple variables and their impact on an outcome:
+
+- Rainfall, temperature, and fertilizer use on crop yield
+- Diet and exercise on heart disease
+- Wage growth and inflation on home loan rates
+
+### Logistic regression
+Data scientists use logistic regression to measure the probability of an event occurring. The prediction is a value between 0 and 1, where 0 indicates an event that is unlikely to happen, and 1 indicates a maximum likelihood that it will happen. Logistic equations use logarithmic functions to compute the regression line.
+
+These are some examples:
+
+- The probability of a win or loss in a sporting match
+- The probability of passing or failing a test 
+- The probability of an image being a fruit or an animal
+
 --------
 
 we can represent a simple linear regression line as $$y = \beta_0 + \beta_1 x$$
