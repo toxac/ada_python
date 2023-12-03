@@ -51,7 +51,7 @@ You can use simple linear regression to model the relationship between two varia
 - Age and height in children
 - Temperature and expansion of the metal mercury in a thermometer
 
-## Multiple linear regression
+### Multiple linear regression
 In multiple linear regression analysis, the dataset contains one dependent variable and multiple independent variables. The linear regression line function changes to include more factors as follows:
 
 $$y = \beta_0 * x0 + \beta_1 x1 +...+ \beta_n xn+ \epsilon$$
